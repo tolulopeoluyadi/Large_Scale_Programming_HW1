@@ -1,12 +1,9 @@
 package org.howard.edu.lsp.assignment5;
-import org.howard.edu.lsp.assignment5.IntegerSet;
-import org.howard.edu.lsp.assignment5.IntegerSetException;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import java.util.ArrayList;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import org.junit.jupiter.api.BeforeEach;

@@ -12,9 +12,10 @@ public class HelloWorld {
         // Create a HashMap to store the words and their frequencies
         
         // Read the text file
+		FileReader fr = new FileReader();
 		Scanner fileScanner = null;
 		try {
-			fileScanner = new Scanner( new File("/lsp_Spring23/src/org/howard/edu/lsp/assignment2/words.txt"));
+				System.out.println(fr.readToString("Large_Scale_Programming_HW1/lsp_Spring23/src/words.txt"));
 	
 		} catch (FileNotFoundException e) {
 			System.out.println("Unable to open resource");
@@ -53,6 +54,7 @@ public class HelloWorld {
         for (String word : wordFrequency.keySet()) {
             System.out.println(word + "    " + wordFrequency.get(word));
         }
+        
     }
 
     // Another function to determine if a string is a number
